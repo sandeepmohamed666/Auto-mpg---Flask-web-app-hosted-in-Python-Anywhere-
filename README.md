@@ -1,2 +1,2 @@
-# Flask Web App for Auto MPG Prediction (CompleteProject)
-Flask Web App for Auto MPG Prediction (CompleteProject)
+# Auto-mpg---Flask-web-app-hosted-in-Python-Anywhere-
+Auto-mpg - Flask web app (hosted in Python Anywhere-Anaconda) 
