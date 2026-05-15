@@ -1,4 +1,3 @@
-import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -8,43 +7,12 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
-
-import joblib
-import streamlit as st
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import r2_score
-
-
-
-import pandas as pd
-from flask import Flask
+# from flask import Flask
 import pickle
-from flask import render_template, request
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+# from flask import render_template, request
+# from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
-
-
-
-
-import pandas as pd
-import numpy as np
-import joblib
-
-from sklearn.model_selection import train_test_split
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import r2_score
+# import joblib
 
 # Load dataset
 file_path = "auto-mpg.csv"

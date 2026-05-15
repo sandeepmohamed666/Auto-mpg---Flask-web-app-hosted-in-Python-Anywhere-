@@ -1,15 +1,21 @@
 from flask import Flask, render_template, request
-import numpy as np
-import pickle
-
-from flask import Flask, render_template, request
+# import numpy as np
+# import pickle
 import pandas as pd
 import joblib
 
 app = Flask(__name__)
 
 # Load trained model
+
 model = joblib.load('model.pkl')
+import os
+import joblib
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(BASE_DIR, "model.pkl")
+
+# model = joblib.load(model_path)
 
 @app.route('/')
 def home():
@@ -90,3 +96,24 @@ if __name__ == '__main__':
 
 # if __name__ == "__main__":
 #     app.run(debug=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# from flask import Flask, render_template
+
+# app = Flask(__name__)
+
+# @app.route("/")
+# def home():
+#     return render_template("index.html")
